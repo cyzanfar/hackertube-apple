@@ -11,7 +11,7 @@ xcodegen generate          # writes HackerTube.xcodeproj from project.yml
 open HackerTube.xcodeproj  # schemes: HackerTube (iOS/iPadOS), HackerTubeTV (tvOS)
 ```
 
-To run on a device, set your team under Signing & Capabilities. Bundle ids are `org.hackertube.app` and `org.hackertube.tv`.
+To run on a device, set your team under Signing & Capabilities. Bundle ids are `com.cyzanfar.hackertube.ios` and `com.cyzanfar.hackertube.tv`.
 
 ## Layout
 

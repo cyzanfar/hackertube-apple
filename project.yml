@@ -1,6 +1,6 @@
 name: HackerTube
 options:
-  bundleIdPrefix: org.hackertube
+  bundleIdPrefix: com.cyzanfar.hackertube
   deploymentTarget:
     iOS: "17.0"
     tvOS: "17.0"
@@ -22,7 +22,7 @@ targets:
     sources: [Shared, iOS]
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: org.hackertube.app
+        PRODUCT_BUNDLE_IDENTIFIER: com.cyzanfar.hackertube.ios
         TARGETED_DEVICE_FAMILY: "1,2"
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
@@ -34,7 +34,7 @@ targets:
     sources: [Shared, tvOS]
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: org.hackertube.tv
+        PRODUCT_BUNDLE_IDENTIFIER: com.cyzanfar.hackertube.tv
         PRODUCT_NAME: HackerTube
         TARGETED_DEVICE_FAMILY: "3"
         INFOPLIST_KEY_UILaunchScreen_Generation: YES

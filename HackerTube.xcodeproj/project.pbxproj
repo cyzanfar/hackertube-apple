@@ -281,7 +281,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.hackertube.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyzanfar.hackertube.ios;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -370,7 +370,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.hackertube.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyzanfar.hackertube.ios;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,7 +386,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.hackertube.tv;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyzanfar.hackertube.tv;
 				PRODUCT_NAME = HackerTube;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -403,7 +403,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.hackertube.tv;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyzanfar.hackertube.tv;
 				PRODUCT_NAME = HackerTube;
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
