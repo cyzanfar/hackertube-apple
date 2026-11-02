@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03696BA45DCE50E825250ECE /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA711E64026AF65B1F2B323 /* Components.swift */; };
+		04AF1A4964F98BAFB1F3FEBC /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F9C5D7AD69D4A2B1FDFF7 /* Icons.swift */; };
+		1163C1EA1D460A5837275159 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E8E7DD2608B02A9E34E79 /* RemoteImage.swift */; };
+		24D2852423805A6D5C128EC7 /* TVWebPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17C470F0EC797ED8D6D5E9E /* TVWebPlayer.swift */; };
+		258BD9190E8B8144E5088291 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6FD8B4824E9E4906D87498 /* API.swift */; };
+		26287CD46A7C9587D3B7EC97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC1195173C47A6F0875EA41 /* Assets.xcassets */; };
+		2C97096AC9E8304D5D729D2D /* WatchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822822580EAC533FC4B52E27 /* WatchPage.swift */; };
+		3D80AE43B7271B0948467821 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EDEDA9DA14C025360BC71C /* Palette.swift */; };
+		424CE93A9A8005BBC389A500 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8AC69D340D7AFA880989E2 /* Library.swift */; };
+		4B979E4C942633D869915E2F /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EDEDA9DA14C025360BC71C /* Palette.swift */; };
+		52816D48EB02FA3EA283B3E7 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88530C0A83E28F552B1478B7 /* FlowLayout.swift */; };
+		567458C646B757B019DA5D0B /* AboutPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8D6FA985B8CBB4C94BF12A /* AboutPages.swift */; };
+		580FEDCDC088845861225D1E /* TVVideoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC0E055BA263C136FF900D /* TVVideoPage.swift */; };
+		71A848A4C8602E5DA5BFCD5B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECAAD6040B4496727BC9CD /* Models.swift */; };
+		72E60648CE35B721C00E1AE0 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0898A628EA0BA702EED9A6D /* Filters.swift */; };
+		76BB3678892F5C7E341111ED /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8AC69D340D7AFA880989E2 /* Library.swift */; };
+		78B6F22C93C3214F919A336F /* Pages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011EBF1170D9503AD6FF5588 /* Pages.swift */; };
+		79C944A9FC2EC41E6ABC5C47 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4833469D7CF3F196A4EC15 /* Format.swift */; };
+		88FBB862112AE3E2D3ECE54F /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E8E7DD2608B02A9E34E79 /* RemoteImage.swift */; };
+		8C133DFE1667A59761812C38 /* TVPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C8E67FAD02381F323E0B92 /* TVPages.swift */; };
+		8D0F7FD3B285AFB59386BDBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64AF05A0D6466E98FF1FF0D /* Assets.xcassets */; };
+		A3E2466B2DEDB9D13309835A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ECAAD6040B4496727BC9CD /* Models.swift */; };
+		A6AF192F737698392B30504E /* HackerTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58914470D64B10E9DE20D31A /* HackerTubeApp.swift */; };
+		AF948E1FCEB6D330BD01F8A0 /* TVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D557D1024414CD7C9D1FAE /* TVApp.swift */; };
+		B36482CE4A7FCAAD40379DB7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6FD8B4824E9E4906D87498 /* API.swift */; };
+		C164225734CB9B4DDCB79C0A /* TVComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E910E63F5560138DCDD510 /* TVComponents.swift */; };
+		C8394DD057F416BBE6C028CF /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88530C0A83E28F552B1478B7 /* FlowLayout.swift */; };
+		C8DCBE6479F6936349B3B7ED /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F9C5D7AD69D4A2B1FDFF7 /* Icons.swift */; };
+		E12DF8E81817BDA930A65DCE /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0898A628EA0BA702EED9A6D /* Filters.swift */; };
+		E835496114A1BA151FCC9B4B /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4833469D7CF3F196A4EC15 /* Format.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		011EBF1170D9503AD6FF5588 /* Pages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pages.swift; sourceTree = "<group>"; };
+		09C8E67FAD02381F323E0B92 /* TVPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVPages.swift; sourceTree = "<group>"; };
+		0FC1195173C47A6F0875EA41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AA711E64026AF65B1F2B323 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		2652A24AD794A877DA6442FC /* HackerTubeTV.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HackerTubeTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1F9C5D7AD69D4A2B1FDFF7 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		3C8AC69D340D7AFA880989E2 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		40D557D1024414CD7C9D1FAE /* TVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVApp.swift; sourceTree = "<group>"; };
+		541E8E7DD2608B02A9E34E79 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		58914470D64B10E9DE20D31A /* HackerTubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTubeApp.swift; sourceTree = "<group>"; };
+		822822580EAC533FC4B52E27 /* WatchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchPage.swift; sourceTree = "<group>"; };
+		88530C0A83E28F552B1478B7 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		9F6FD8B4824E9E4906D87498 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		A5EDEDA9DA14C025360BC71C /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		B64AF05A0D6466E98FF1FF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C17C470F0EC797ED8D6D5E9E /* TVWebPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVWebPlayer.swift; sourceTree = "<group>"; };
+		D8ECAAD6040B4496727BC9CD /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DEAC0E055BA263C136FF900D /* TVVideoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVVideoPage.swift; sourceTree = "<group>"; };
+		E0898A628EA0BA702EED9A6D /* Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
+		E3E910E63F5560138DCDD510 /* TVComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVComponents.swift; sourceTree = "<group>"; };
+		E9133195E7A8C1D1223258BF /* HackerTube.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HackerTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4833469D7CF3F196A4EC15 /* Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+		FA8D6FA985B8CBB4C94BF12A /* AboutPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPages.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1ADDEEFE785FFBAA8CA81A4A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9F6FD8B4824E9E4906D87498 /* API.swift */,
+				E0898A628EA0BA702EED9A6D /* Filters.swift */,
+				88530C0A83E28F552B1478B7 /* FlowLayout.swift */,
+				EF4833469D7CF3F196A4EC15 /* Format.swift */,
+				2A1F9C5D7AD69D4A2B1FDFF7 /* Icons.swift */,
+				3C8AC69D340D7AFA880989E2 /* Library.swift */,
+				D8ECAAD6040B4496727BC9CD /* Models.swift */,
+				A5EDEDA9DA14C025360BC71C /* Palette.swift */,
+				541E8E7DD2608B02A9E34E79 /* RemoteImage.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		27BBBE4D7007B99F1B0591B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9133195E7A8C1D1223258BF /* HackerTube.app */,
+				2652A24AD794A877DA6442FC /* HackerTubeTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		677A373FB6B0513E89999BE1 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				0FC1195173C47A6F0875EA41 /* Assets.xcassets */,
+				40D557D1024414CD7C9D1FAE /* TVApp.swift */,
+				E3E910E63F5560138DCDD510 /* TVComponents.swift */,
+				09C8E67FAD02381F323E0B92 /* TVPages.swift */,
+				DEAC0E055BA263C136FF900D /* TVVideoPage.swift */,
+				C17C470F0EC797ED8D6D5E9E /* TVWebPlayer.swift */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		9200E9AD3A4C7F7349077866 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FA8D6FA985B8CBB4C94BF12A /* AboutPages.swift */,
+				B64AF05A0D6466E98FF1FF0D /* Assets.xcassets */,
+				1AA711E64026AF65B1F2B323 /* Components.swift */,
+				58914470D64B10E9DE20D31A /* HackerTubeApp.swift */,
+				011EBF1170D9503AD6FF5588 /* Pages.swift */,
+				822822580EAC533FC4B52E27 /* WatchPage.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F201660BBBC95E63EFD3DD25 = {
+			isa = PBXGroup;
+			children = (
+				9200E9AD3A4C7F7349077866 /* iOS */,
+				1ADDEEFE785FFBAA8CA81A4A /* Shared */,
+				677A373FB6B0513E89999BE1 /* tvOS */,
+				27BBBE4D7007B99F1B0591B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE1720C32DCA61F7EA45219 /* HackerTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B27B46DC769E346F42A508 /* Build configuration list for PBXNativeTarget "HackerTube" */;
+			buildPhases = (
+				C8D12656D72D7DE2C5677DD4 /* Sources */,
+				E7C6D83B9AAD702763C59092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerTube;
+			packageProductDependencies = (
+			);
+			productName = HackerTube;
+			productReference = E9133195E7A8C1D1223258BF /* HackerTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDE736FD039C8C32C23F1376 /* HackerTubeTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36F9359C2EB70B8B0D2C97A /* Build configuration list for PBXNativeTarget "HackerTubeTV" */;
+			buildPhases = (
+				11AFB8897CA6AF280F6DEF81 /* Sources */,
+				AB6E5CF1013D30B17E407781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerTubeTV;
+			packageProductDependencies = (
+			);
+			productName = HackerTubeTV;
+			productReference = 2652A24AD794A877DA6442FC /* HackerTubeTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C731D50ED9141942EFC193E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5FE1720C32DCA61F7EA45219 = {
+						ProvisioningStyle = Automatic;
+					};
+					BDE736FD039C8C32C23F1376 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC72180A74300C723D890567 /* Build configuration list for PBXProject "HackerTube" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F201660BBBC95E63EFD3DD25;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 27BBBE4D7007B99F1B0591B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE1720C32DCA61F7EA45219 /* HackerTube */,
+				BDE736FD039C8C32C23F1376 /* HackerTubeTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB6E5CF1013D30B17E407781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26287CD46A7C9587D3B7EC97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C6D83B9AAD702763C59092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0F7FD3B285AFB59386BDBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11AFB8897CA6AF280F6DEF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36482CE4A7FCAAD40379DB7 /* API.swift in Sources */,
+				E12DF8E81817BDA930A65DCE /* Filters.swift in Sources */,
+				52816D48EB02FA3EA283B3E7 /* FlowLayout.swift in Sources */,
+				E835496114A1BA151FCC9B4B /* Format.swift in Sources */,
+				C8DCBE6479F6936349B3B7ED /* Icons.swift in Sources */,
+				76BB3678892F5C7E341111ED /* Library.swift in Sources */,
+				A3E2466B2DEDB9D13309835A /* Models.swift in Sources */,
+				3D80AE43B7271B0948467821 /* Palette.swift in Sources */,
+				1163C1EA1D460A5837275159 /* RemoteImage.swift in Sources */,
+				AF948E1FCEB6D330BD01F8A0 /* TVApp.swift in Sources */,
+				C164225734CB9B4DDCB79C0A /* TVComponents.swift in Sources */,
+				8C133DFE1667A59761812C38 /* TVPages.swift in Sources */,
+				580FEDCDC088845861225D1E /* TVVideoPage.swift in Sources */,
+				24D2852423805A6D5C128EC7 /* TVWebPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D12656D72D7DE2C5677DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258BD9190E8B8144E5088291 /* API.swift in Sources */,
+				567458C646B757B019DA5D0B /* AboutPages.swift in Sources */,
+				03696BA45DCE50E825250ECE /* Components.swift in Sources */,
+				72E60648CE35B721C00E1AE0 /* Filters.swift in Sources */,
+				C8394DD057F416BBE6C028CF /* FlowLayout.swift in Sources */,
+				79C944A9FC2EC41E6ABC5C47 /* Format.swift in Sources */,
+				A6AF192F737698392B30504E /* HackerTubeApp.swift in Sources */,
+				04AF1A4964F98BAFB1F3FEBC /* Icons.swift in Sources */,
+				424CE93A9A8005BBC389A500 /* Library.swift in Sources */,
+				71A848A4C8602E5DA5BFCD5B /* Models.swift in Sources */,
+				78B6F22C93C3214F919A336F /* Pages.swift in Sources */,
+				4B979E4C942633D869915E2F /* Palette.swift in Sources */,
+				88FBB862112AE3E2D3ECE54F /* RemoteImage.swift in Sources */,
+				2C97096AC9E8304D5D729D2D /* WatchPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		086F8CCA86F6CEAC4DF5D89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackertube.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63DFA9813F4339810A406DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HackerTube;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		7B5647D464760BB352189F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackertube.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA3CC54CCCCEC2ED722255CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackertube.tv;
+				PRODUCT_NAME = HackerTube;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		CD23A4B0D03539F464C52749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackertube.tv;
+				PRODUCT_NAME = HackerTube;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		CF58FBDD24A36060C65DA994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HackerTube;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC72180A74300C723D890567 /* Build configuration list for PBXProject "HackerTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DFA9813F4339810A406DA2 /* Debug */,
+				CF58FBDD24A36060C65DA994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B3B27B46DC769E346F42A508 /* Build configuration list for PBXNativeTarget "HackerTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5647D464760BB352189F2F /* Debug */,
+				086F8CCA86F6CEAC4DF5D89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F36F9359C2EB70B8B0D2C97A /* Build configuration list for PBXNativeTarget "HackerTubeTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD23A4B0D03539F464C52749 /* Debug */,
+				CA3CC54CCCCEC2ED722255CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C731D50ED9141942EFC193E4 /* Project object */;
+}
